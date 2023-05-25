@@ -1,0 +1,25 @@
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+
+.my-icon {
+    @extend .fas; 
+    @extend .fa-dog; 
+  
+  }
+.array{
+    border: solid 1px gray; 
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    :hover{
+        background-color: bisque;
+    }
+}
+.list {
+    border: solid 1px gray;
+    width: 150px;
+    padding:20px ;
+   
+}
+
+
+  
